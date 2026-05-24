@@ -1,20 +1,20 @@
 ---
 layout: default
-title: AgentMark Privacy Policy
+title: MarkEd Privacy Policy
 permalink: /privacy/
 ---
 
-# AgentMark Privacy Policy
+# MarkEd Privacy Policy
 
 **Last updated:** May 24, 2026
 
 ## Summary
 
-AgentMark is a Chrome extension that lets you highlight any webpage, add comments, and ask an AI assistant ("Mark") questions about what you've highlighted.
+MarkEd is a Chrome extension that lets you highlight any webpage, add comments, and ask an AI assistant ("Mark") questions about what you've highlighted.
 
 Your highlights, comments, and AI conversation history are stored **only in your browser** (IndexedDB). They never leave your device unless you explicitly export them.
 
-To answer your questions, AgentMark forwards them through a Cloudflare Worker we operate, which calls the Anthropic Claude API. You sign in with Google so we can rate-limit usage per account.
+To answer your questions, MarkEd forwards them through a Cloudflare Worker we operate, which calls the Anthropic Claude API. You sign in with Google so we can rate-limit usage per account.
 
 ## Data stored locally (always)
 
@@ -80,7 +80,7 @@ We enforce a per-user rate limit (currently 20 requests/hour) and hard size limi
 
 ## Children
 
-AgentMark is not directed at children under 13 and we do not knowingly collect data from them.
+MarkEd is not directed at children under 13 and we do not knowingly collect data from them.
 
 ## Changes
 

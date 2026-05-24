@@ -1,9 +1,9 @@
 ---
 layout: default
-title: AgentMark
+title: MarkEd
 ---
 
-# AgentMark
+# MarkEd
 
 A Chrome extension for annotating any webpage with highlights, comments, and an AI assistant that answers your questions in context.
 
