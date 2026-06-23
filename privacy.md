@@ -8,7 +8,7 @@ permalink: /privacy/
 
 This is the official privacy policy for the MarkEd Chrome extension.
 
-**Last updated:** June 20, 2026
+**Last updated:** June 23, 2026
 
 ## Summary
 
@@ -80,15 +80,16 @@ These milestone events are stored in Cloudflare D1 alongside the usage metadata 
 
 ## Permissions
 
-- **activeTab** — access the page you're currently viewing only after you explicitly activate MarkEd on that tab, using the popup "Enable MarkEd on this page" button, the "Highlight with MarkEd" context-menu item, or the Cmd/Ctrl+Shift+M keyboard shortcut. MarkEd does not use broad page host permissions or an always-on content script.
-- **scripting** — inject the MarkEd content script into that one active tab when you activate the extension.
+- **activeTab** — access the page you're currently viewing only after you explicitly activate MarkEd on that tab, using the right-click "Highlight with MarkEd" context-menu item or the Cmd/Ctrl+Shift+M keyboard shortcut. By default MarkEd does not use broad page host permissions or an always-on content script.
+- **scripting** — inject the MarkEd content script into a tab: into the active tab when you activate it manually, or automatically on sites where you have turned on "run automatically".
 - **contextMenus** — provide the right-click "Highlight with MarkEd" action for selected text.
 - **storage** — save highlights, comments, and settings locally.
 - **downloads** — produce markdown / Obsidian export files when you trigger an export.
 - **identity** — Google sign-in flow.
 - **host_permissions** — talk to our Cloudflare Worker, which calls Anthropic for AI requests, and Google sign-in endpoints.
+- **Optional "run automatically" access** — by default MarkEd runs on a page only when you activate it. You can optionally allow MarkEd to run automatically on a specific site, or on all sites, so your saved highlights reappear without re-activating. This broad access is requested only when you turn it on and can be revoked anytime from chrome://extensions.
 
-MarkEd cannot see pages you do not explicitly activate it on. As a result, saved highlights reappear only after you re-activate MarkEd on that page.
+On pages where you have not turned on automatic running, MarkEd cannot see the page unless you explicitly activate it, and saved highlights reappear only after you re-activate MarkEd there. On sites where you have enabled automatic running, MarkEd loads when you visit and restores your highlights automatically.
 
 ## Data deletion
 
